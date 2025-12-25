@@ -1,0 +1,1 @@
+OLLAMA_MODELS=/models/models ollama serve > >(tee ollama-output.log) 2>&1 &
